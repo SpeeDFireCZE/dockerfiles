@@ -1,5 +1,5 @@
 # Docker image used by pufferd when a specific image is not specified.
-FROM ubuntu:16.04
+FROM debian:latest
 RUN useradd -m -d /server pufferd
 WORKDIR /server
 
